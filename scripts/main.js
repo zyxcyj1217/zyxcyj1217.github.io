@@ -50,14 +50,14 @@ function textChange(index) {
 
 var menuIndex = 0;
 var menu = [
-  "霹", "靂", "卡", "霹", "靂", "啦", "啦",
-  "波", "波", "力", "那", "貝", "貝", "魯", "多"
+  "霹", "靂", "卡", "霹", "靂", "啦",
+  "波", "力", "那", "貝", "魯", "多"
 ];
 function menuChange(index) {
 
   document.getElementById("MENU").innerHTML = menu[menuIndex];
 
-  if(menuIndex < 14) {
+  if(menuIndex < 11) {
     menuIndex++;
   }else{
     menuIndex = 0;
