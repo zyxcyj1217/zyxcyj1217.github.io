@@ -15,6 +15,7 @@ var text0 = [
 ];
 
 function textChange(index) {
+
   if(index == 0) {
 
     document.getElementById("TEXT").innerHTML = text0[textIndex];
@@ -38,4 +39,23 @@ function textChange(index) {
     }
 
   }
+
+}
+
+var menuIndex = 0;
+
+var menu = [
+  "嘣", "吧", "啦", "嘟", "吧", "啦",
+];
+
+function menuChange(index) {
+
+  document.getElementById("MENU").innerHTML = menu[menuIndex];
+
+  if(menuIndex < 5) {
+    menuIndex++;
+  }else{
+    menuIndex = 0;
+  }
+
 }
