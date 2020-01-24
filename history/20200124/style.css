@@ -1,0 +1,56 @@
+body {
+  background-color: #F0F0F0;
+  color: #2d241f;
+
+  margin:  0px;
+  border:  0px;
+  padding: 0px;
+  
+  font-size: 24px;
+  font-family: Consolas, 微軟正黑體;
+}
+
+#div-menu {
+  background-color: #FFC0CB;
+
+  margin:  0px;
+  border:  0px;
+  padding: 0px 24px;
+  
+  text-align: center;
+  line-height: 60px;
+  
+  height: 64px;
+  width:  auto;
+  
+  float: left;
+}
+
+#div-head {
+  background-color: #b5c4b1;
+
+  margin:  0px;
+  border:  0px;
+  padding: 0px;
+
+  height:  100%;
+  width:   100%;
+
+  font-size: 48px;
+
+  display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#div-body {
+  background-color: #f0ebe5;
+
+  margin:  0px;
+  border:  0px;
+  padding: 0px;
+  
+  height:  100%;
+  width:   100%;
+}
