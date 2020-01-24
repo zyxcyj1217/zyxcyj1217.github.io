@@ -1,3 +1,14 @@
+@font-face {
+  font-family: JackeyFont;
+  src: url(fonts/JackeyFont.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: MBitmapRoundHK-Light;
+  src: url(fonts/MBitmapRoundHK-Light.otf) format("opentype");
+  
+}
+
 body {
   background-color: #F0F0F0;
   color: #2d241f;
@@ -21,6 +32,7 @@ body {
   width:  64px;
 
   font-size: 32px;
+  font-family: MBitmapRoundHK-Light;
 
   position: fixed;
   border-radius: 32px;
@@ -42,6 +54,8 @@ body {
   width:   100%;
 
   font-size: 48px;
+
+  font-family: MBitmapRoundHK-Light;
 
   display: flex;
 	flex-wrap: wrap;
